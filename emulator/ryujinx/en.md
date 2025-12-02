@@ -1,11 +1,11 @@
-# 🎮 Ryujinx Setup Guide (Deutsch)
+# 🎮 Ryujinx Setup Guied
 
-Eine kurze Anleitung zur Einrichtung des Nintendo Switch Emulators **Ryujinx**.
+A short guid how to setup the Nintendo Switch emulater **Ryujinx**.
 
 ---
 
-## 📥 Download Ryujinx
-Wähle die passende Version für dein Betriebssystem:
+## 📥 Downlod Ryujinx
+Choose the right verion for your sistem:
 
 - [Windows x64 (Stable)](https://update.ryujinx.app/download/query?os=win&arch=x64&rc=stable)  
 - [Windows arm64 (Stable)](https://update.ryujinx.app/download/query?os=win&arch=arm64&rc=stable)  
@@ -14,54 +14,54 @@ Wähle die passende Version für dein Betriebssystem:
 - [macOS x64 (Stable)](https://update.ryujinx.app/download/query?os=mac&arch=x64&rc=stable)  
 - [macOS arm64 (Apple Silicon, Stable)](https://update.ryujinx.app/download/query?os=mac&arch=arm64&rc=stable)  
 
-👉 Nach dem Download die Datei entpacken und Ryujinx starten.
+👉 After downlod, unzip the file and start Ryujinx. Dont forget to extract all files.
 
 ---
 
-## 🔑 Prod.keys installieren
-- [Download Prod.keys](https://files.prodkeys.net/Prodkeys.NET_v21-0-0.zip)  
-- ZIP-Datei entpacken  
-- Die Datei `prod.keys` in den Ryujinx-Systemordner kopieren:  
-  - **Pfad:** `Ryujinx/system/`
+## 🔑 Instal Prod.keys
+- [Downlod Prod.keys](https://files.prodkeys.net/Prodkeys.NET_v21-0-0.zip)  
+- Unzip the zip file  
+- Copy the file `prod.keys` into Ryujinx sistem folder:  
+  - **Path:** `Ryujinx/system/`
 
 ---
 
-## 🧩 Firmware installieren
-- [Download Firmware](https://github.com/THZoria/NX_Firmware/releases/download/21.0.0/Firmware.21.0.0.zip)  
-- ZIP-Datei entpacken  
+## 🧩 Instal Firmwere
+- [Downlod Firmwere](https://github.com/THZoria/NX_Firmware/releases/download/21.0.0/Firmware.21.0.0.zip)  
+- Unzip the file  
 - In Ryujinx:  
-  - Menü **Tools > Install Firmware > Install from XCI/ZIP**  
-  - Entpackte Firmware-Dateien auswählen und installieren  
+  - Menu **Tools > Instal Firmware > Instal from XCI/ZIP**  
+  - Select the unziped firmwere files and instal  
 
 ---
 
-## 🎮 Controller einrichten
-- Gehe zu **Options > Settings > Input**  
-- Wähle deinen Controller aus und konfiguriere die Tastenbelegung  
+## 🎮 Setup Controllar
+- Go to **Options > Settings > Input**  
+- Choose your controllar and config the butons  
 
 ---
 
-## 📂 Spieleordner festlegen
-- Gehe zu **Options > Settings > Game Directory**  
-- Wähle einen leeren Ordner aus, in dem deine ROMs gespeichert werden sollen  
+## 📂 Setup Game Folder
+- Go to **Options > Settings > Game Directory**  
+- Choose a empty folder where your roms will be keeped  
 
 ---
 
-## 🚀 Spiele starten
-1. Kopiere deine ROM-Dateien (`.xci` oder `.nsp`) in den ausgewählten Spieleordner  
-2. Starte Ryujinx  
-3. Wähle dein Spiel aus der Liste und beginne zu spielen 🎉  
+## 🚀 Start Games
+1. Copy your rom files (`.xci` or `.nsp`) into the selected game folder  
+2. Start Ryujinx  
+3. Choose your game from the list and play it 🎉  
 
 ---
 
-## ⚡ Zusätzliche Tipps
-- **Grafiktreiber aktuell halten** (NVIDIA/AMD/Intel)  
-- **Shader Cache aktivieren**: reduziert Ruckler beim Spielen  
-- **Vulkan oder OpenGL testen**: je nach Spiel kann die Performance variieren  
-- **Cheats/Mods**: können über den Ordner `Ryujinx/mods` hinzugefügt werden  
-- **Speicherstände**: werden im Ordner `Ryujinx/bis/user/save/` gespeichert  
+## ⚡ Extra Tipps
+- **Keep grafics drivers update** (NVIDIA/AMD/Intel), otherwise errors can hapen.  
+- **Enable Shader Cache**: reduce stuters when playing.  
+- **Try Vulcan or OpenGL**: perfomance can be diferent per game.  
+- **Cheats/Mods**: can be add in folder `Ryujinx/mods`.  
+- **Savegames**: are stored in folder `Ryujinx/bis/user/save/`.  
 
 ---
 
-## ✅ Fertig!
-Du hast Ryujinx erfolgreich eingerichtet. Viel Spaß beim Spielen deiner Nintendo Switch Games auf PC, Linux oder macOS!  
+## ✅ Don!
+You have setup Ryujinx succesfuly. Enjoy play your Nintendo Switch games on PC, Linux or macOS!  
