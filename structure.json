@@ -21,5 +21,10 @@
     "stuff": {
       "de": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/bsfisi/stuff/STATUS.md"
     }
+  },
+  "docker": {
+    "minecraft": {
+      "en": "https://raw.githubusercontent.com/florianthepro/docker/refs/heads/guides/minecraft/how-to-setup-debian.md"
+    }
   }
 }
