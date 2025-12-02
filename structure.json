@@ -29,6 +29,9 @@
     },
     "noten": {
       "de": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/bsfisi/stuff/noten.md"
+    },
+    "Arduino-NMCU-V2": {
+      "de": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/bsfisi/stuff/Arduino-NMCU-V2.md"
     }
   },
   "docker": {
