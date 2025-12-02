@@ -33,7 +33,7 @@
   },
   "docker": {
     "minecraft": {
-      "en": "https://raw.githubusercontent.com/florianthepro/docker/refs/heads/guides/minecraft/how-to-setup-debian.md"
+      "en": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/docker/minecraft/how-to-setup-debian.md"
     }
   }
 }
