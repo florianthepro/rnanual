@@ -38,5 +38,11 @@
     "minecraft-how-to-setup-minecraft": {
       "en": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/docker/minecraft/how-to-setup-minecraft.md"
     }
+  },
+  "emulator": {
+    "ryujinx": {
+      "de": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/emulator/ryujinx/de.md",
+      "en": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/emulator/ryujinx/en.md"
+    }
   }
 }
