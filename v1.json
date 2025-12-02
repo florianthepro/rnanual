@@ -1,0 +1,39 @@
+{
+  "bsfisi": {
+    "24.11.2025": {
+      "de": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/bsfisi/24.11.2025/2025-11-24.md"
+    },
+    "25.11.2025": {
+      "de": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/bsfisi/25.11.2025/2025-11-25.md"
+    },
+    "26.11.2025": {
+      "de": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/bsfisi/26.11.2025/2025-11-26.md"
+    },
+    "27.11.2025": {
+      "de": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/bsfisi/27.11.2025/2025-11-27.md"
+    },
+    "01.12.2025": {
+      "de": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/bsfisi/01.12.2025/2025-12-01.md"
+    },
+    "02.12.2025": {
+      "de": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/bsfisi/02.12.2025/2025-12-02.md"
+    },
+    "Bezugspreiskalkulation": {
+      "de": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/bsfisi/stuff/Bezugspreiskalkulation.md"
+    },
+    "STATUS": {
+      "de": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/bsfisi/stuff/STATUS.md"
+    },
+    "node-mcu": {
+      "de": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/bsfisi/stuff/node-mcu.c%2B%2B"
+    },
+    "noten": {
+      "de": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/bsfisi/stuff/noten.md"
+    }
+  },
+  "docker": {
+    "minecraft": {
+      "en": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/docker/minecraft/how-to-setup-debian.md"
+    }
+  }
+}
