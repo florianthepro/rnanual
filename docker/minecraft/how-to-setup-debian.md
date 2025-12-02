@@ -120,6 +120,6 @@ newgrp docker
 
 </details><details><summary>5. Set Up Minecraft Server</summary>
 
-Follow the instructions in the [how-to-second.md](https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/docker/minecraft/how-to-setup-minecraft.md)
+Follow the instructions in the `how-to-setup-minecraft`
 
 </details>
