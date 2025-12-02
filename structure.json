@@ -18,8 +18,17 @@
     "02.12.2025": {
       "de": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/bsfisi/02.12.2025/2025-12-02.md"
     },
-    "stuff": {
+    "Bezugspreiskalkulation": {
+      "de": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/bsfisi/stuff/Bezugspreiskalkulation.md"
+    },
+    "STATUS": {
       "de": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/bsfisi/stuff/STATUS.md"
+    },
+    "node-mcu": {
+      "de": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/bsfisi/stuff/node-mcu.c%2B%2B"
+    },
+    "noten": {
+      "de": "https://raw.githubusercontent.com/florianthepro/rnanual/refs/heads/main/bsfisi/stuff/noten.md"
     }
   },
   "docker": {
