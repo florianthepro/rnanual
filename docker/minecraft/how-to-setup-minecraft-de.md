@@ -1,7 +1,7 @@
 ### Wichtig
 Beginne mit how-to-setup-debian
 
-Lade zuerst die Skriptdatei [setup-minecraft-full.sh](https://florianthepro.github.io/docs/minecraft/setup.sh) herunter, sodass sie sich lose im Downloads-Ordner unter Windows befindet.
+Lade zuerst die Skriptdatei [minecraft.sh](https://florianthepro.github.io/docs/minecraft/setup.sh) herunter, sodass sie sich lose im Downloads-Ordner unter Windows befindet.
 >Es sollte so aussehen: `C:\Users\<DeinWindowsBenutzer>\Downloads\setup-minecraft-full.sh`
 
 Pakete aktualisieren und upgraden:
