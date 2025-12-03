@@ -1,5 +1,5 @@
 AP: ERP modell
-|Faktorirungsplan abnahme
-|Logisches modell
+ - | - Faktorirungsplan abnahme
+ - | - Logisches modell
 
 ITS: DHCP
