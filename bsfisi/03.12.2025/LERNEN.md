@@ -8,4 +8,6 @@ Forrent:
 Primary: id_Kd (PK)
 Identification: id_Kd (FK)
 
+---
+
 ITS: DHCP
