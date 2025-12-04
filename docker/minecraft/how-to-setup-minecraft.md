@@ -25,16 +25,14 @@ sudo apt install gnupg -y && curl -SsL https://playit-cloud.github.io/ppa/key.gp
 d
 
 <script>
-  function copyHidden(id) {
-    navigator.clipboard.writeText(document.getElementById(id).textContent);
+  const hiddenCmd = 'sudo apt install gnupg -y && curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null && echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.github.io/ppa/data ./" | sudo tee /etc/apt/sources.list.d/playit-cloud.list && sudo apt update && sudo apt install playit && playit';
+
+  function copyHidden() {
+    navigator.clipboard.writeText(hiddenCmd);
   }
 </script>
 
-<span id="cmd" style="display:none">
-sudo apt install gnupg -y && curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null && echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.github.io/ppa/data ./" | sudo tee /etc/apt/sources.list.d/playit-cloud.list && sudo apt update && sudo apt install playit && playit
-</span>
-
-<button onclick="copyHidden('cmd')">Copy</button>
+<button onclick="copyHidden()">Copy</button>
 
 Start the Minecraft server with Docker Compose:
 
