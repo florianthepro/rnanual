@@ -158,21 +158,37 @@ Copy
 
 Reconnect after reboot:
 
-```
+<script type="text/plain" id="cmd-14">
 ssh <username>@<ip-address>
-```
+</script>
+
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd-14').textContent)">
+Copy
+</button>
 
 </details><details><summary>4. Install Docker</summary>
 
 Inside SSH session:
 
-```
+<script type="text/plain" id="cmd-15">
 sudo apt install curl
-```
+</script>
 
-```
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd-15').textContent)">
+Copy
+</button>
+
+---
+
+<script type="text/plain" id="cmd-16">
 curl -fsSL https://get.docker.com -o get-docker.sh
-```
+</script>
+
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd-16').textContent)">
+Copy
+</button>
+
+---
 
 ```
 sudo sh get-docker.sh
