@@ -34,6 +34,7 @@ Copy
 </button>
 
 
+
 <script type="text/plain" id="cmd-02">
 sudo apt upgrade
 </script>
@@ -42,6 +43,7 @@ sudo apt upgrade
 Copy
 </button>
 
+---
 
 <script type="text/plain" id="cmd-03">
 apt install sudo
@@ -51,8 +53,7 @@ apt install sudo
 Copy
 </button>
 
-
->Create user Only if you dont creat by installing os:
+Create user !!!Only!!! if you dont creat by installing os:
 <script type="text/plain" id="cmd-04">
 useradd -m -s /bin/bash <username>
 </script>
