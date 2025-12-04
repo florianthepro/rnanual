@@ -6,30 +6,20 @@ First download the script file [setup-minecraft.sh](https://florianthepro.github
 
 Update and upgrade packages:
 
-```
 <button onclick="navigator.clipboard.writeText('sudo apt update && sudo apt upgrade -y')">Copy</button>
-```
 
 Transfer the setup script from Windows to the Debian server (PowerShell on Windows):
 
-```
-scp $env:USERPROFILE\Downloads\setup-minecraft-full.sh <username>@<server-ip>:/home/<username>/
-```
+<button onclick="navigator.clipboard.writeText('scp $env:USERPROFILE\Downloads\setup-minecraft-full.sh <username>@<server-ip>:/home/<username>/')">Copy</button>
 
 On the Debian server, make the script executable and run it:
 
-```
-chmod +x setup-minecraft-full.sh && ./setup-minecraft-full.sh
-```
+<button onclick="navigator.clipboard.writeText('chmod +x setup-minecraft-full.sh && ./setup-minecraft-full.sh')">Copy</button>
 
 Install Playit (for tunneling/remote access):
 
-```
-sudo apt install gnupg -y && curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null && echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.github.io/ppa/data ./" | sudo tee /etc/apt/sources.list.d/playit-cloud.list && sudo apt update && sudo apt install playit && playit
-```
+<button onclick="navigator.clipboard.writeText('sudo apt install gnupg -y && curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null && echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.github.io/ppa/data ./" | sudo tee /etc/apt/sources.list.d/playit-cloud.list && sudo apt update && sudo apt install playit && playit')">Copy</button>
 
 Start the Minecraft server with Docker Compose:
 
-```
-docker compose up -d
-```
+<button onclick="navigator.clipboard.writeText('docker compose up -d')">Copy</button>
