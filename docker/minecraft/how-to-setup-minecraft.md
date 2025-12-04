@@ -1,7 +1,3 @@
-
-
-<details>
-
 ### Importent
 Start with how-to-setup-debian
 
@@ -11,7 +7,7 @@ First download the script file [setup-minecraft.sh](https://florianthepro.github
 Update and upgrade packages:
 
 ```
-sudo apt update && sudo apt upgrade -y
+<button onclick="navigator.clipboard.writeText('sudo apt update && sudo apt upgrade -y')">Copy</button>
 ```
 
 Transfer the setup script from Windows to the Debian server (PowerShell on Windows):
