@@ -22,6 +22,8 @@ sudo apt install gnupg -y && curl -SsL https://playit-cloud.github.io/ppa/key.gp
 
 ---
 
+d
+
 <script>
   function copyHidden(id) {
     navigator.clipboard.writeText(document.getElementById(id).textContent);
