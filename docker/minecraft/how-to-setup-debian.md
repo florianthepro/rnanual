@@ -33,6 +33,7 @@ sudo apt update
 Copy
 </button>
 
+
 <script type="text/plain" id="cmd-02">
 sudo apt upgrade
 </script>
@@ -40,6 +41,7 @@ sudo apt upgrade
 <button onclick="navigator.clipboard.writeText(document.getElementById('cmd-02').textContent)">
 Copy
 </button>
+
 
 <script type="text/plain" id="cmd-03">
 apt install sudo
@@ -49,9 +51,8 @@ apt install sudo
 Copy
 </button>
 
-Create user and add to sudo group:
 
->Only if you dont creat by installing os:
+>Create user Only if you dont creat by installing os:
 <script type="text/plain" id="cmd-04">
 useradd -m -s /bin/bash <username>
 </script>
@@ -59,6 +60,8 @@ useradd -m -s /bin/bash <username>
 <button onclick="navigator.clipboard.writeText(document.getElementById('cmd-04').textContent)">
 Copy
 </button>
+
+Add user to sudo group:
 
 <script type="text/plain" id="cmd-05">
 sudo usermod -aG sudo <username>
