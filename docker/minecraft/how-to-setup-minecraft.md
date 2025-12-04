@@ -1,4 +1,4 @@
-<button onclick="navigator.clipboard.writeText('dummy01')">dummy02</button>
+
 
 <details>
 
