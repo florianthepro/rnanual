@@ -190,17 +190,33 @@ Copy
 
 ---
 
-```
+<script type="text/plain" id="cmd-17">
 sudo sh get-docker.sh
-```
+</script>
 
-```
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd-17').textContent)">
+Copy
+</button>
+
+---
+
+<script type="text/plain" id="cmd-18">
 sudo usermod -aG docker $USER
-```
+</script>
 
-```
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd-18').textContent)">
+Copy
+</button>
+
+---
+
+<script type="text/plain" id="cmd-19">
 newgrp docker
-```
+</script>
+
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd-19').textContent)">
+Copy
+</button>
 
 </details><details><summary>5. Set Up Minecraft Server</summary>
 
