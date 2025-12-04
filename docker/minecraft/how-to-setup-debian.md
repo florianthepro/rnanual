@@ -25,29 +25,50 @@ Important: Create two users during installation:
 
 Log in as root and run:
 
-<script type="text/plain" id="cmd">
+<script type="text/plain" id="cmd-01">
 sudo apt update
 </script>
 
-<button onclick="navigator.clipboard.writeText(document.getElementById('cmd').textContent)">
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd-01').textContent)">
 Copy
 </button>
 
-```<button onclick="navigator.clipboard.writeText('sudo apt update')">Copy</button>
+<script type="text/plain" id="cmd-02">
 sudo apt upgrade
-```
+</script>
 
-```<button onclick="navigator.clipboard.writeText('sudo apt update')">Copy</button>
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd-02').textContent)">
+Copy
+</button>
+
+<script type="text/plain" id="cmd-03">
 apt install sudo
-```
+</script>
+
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd-03').textContent)">
+Copy
+</button>
 
 Create user and add to sudo group:
 
->Only if you dont creat by installing os: `useradd -m -s /bin/bash <username>`
+>Only if you dont creat by installing os:
+<script type="text/plain" id="cmd-04">
+useradd -m -s /bin/bash <username>
+</script>
 
-```<button onclick="navigator.clipboard.writeText('sudo apt update')">Copy</button>
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd-04').textContent)">
+Copy
+</button>
+
+<script type="text/plain" id="cmd-05">
 sudo usermod -aG sudo <username>
-```
+</script>
+
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd-05').textContent)">
+Copy
+</button>
+
+---
 
 ```<button onclick="navigator.clipboard.writeText('sudo apt update')">Copy</button>
 su - <username>
