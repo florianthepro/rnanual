@@ -74,25 +74,29 @@ Copy
 
 ---
 
-```<button onclick="navigator.clipboard.writeText('sudo apt update')">Copy</button>
+<script type="text/plain" id="cmd-06">
 su - <username>
-```
+</script>
+
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd-06').textContent)">
+Copy
+</button>
 
 Install and enable SSH:
 
-```<button onclick="navigator.clipboard.writeText('sudo apt update')">Copy</button>
+```
 sudo apt install openssh-server
 ```
 
-```<button onclick="navigator.clipboard.writeText('sudo apt update')">Copy</button>
+```
 sudo systemctl enable ssh
 ```
 
-```<button onclick="navigator.clipboard.writeText('sudo apt update')">Copy</button>
+```
 sudo systemctl start ssh
 ```
 
-```<button onclick="navigator.clipboard.writeText('sudo apt update')">Copy</button>
+```
 ip a
 ```
 (check IP address)
@@ -101,25 +105,25 @@ ip a
 
 Open PowerShell and install OpenSSH client:
 
-```<button onclick="navigator.clipboard.writeText('sudo apt update')">Copy</button>
+```
 Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
 ```
 
 Connect to Debian:
 
-```<button onclick="navigator.clipboard.writeText('sudo apt update')">Copy</button>
+```
 ssh <username>@<ip-address>
 ```
 
 Inside SSH:
 
-```<button onclick="navigator.clipboard.writeText('sudo apt update')">Copy</button>
+```
 sudo reboot now
 ```
 
 Reconnect after reboot:
 
-```<button onclick="navigator.clipboard.writeText('sudo apt update')">Copy</button>
+```
 ssh <username>@<ip-address>
 ```
 
@@ -127,23 +131,23 @@ ssh <username>@<ip-address>
 
 Inside SSH session:
 
-```<button onclick="navigator.clipboard.writeText('sudo apt update')">Copy</button>
+```
 sudo apt install curl
 ```
 
-```<button onclick="navigator.clipboard.writeText('sudo apt update')">Copy</button>
+```
 curl -fsSL https://get.docker.com -o get-docker.sh
 ```
 
-```<button onclick="navigator.clipboard.writeText('sudo apt update')">Copy</button>
+```
 sudo sh get-docker.sh
 ```
 
-```<button onclick="navigator.clipboard.writeText('sudo apt update')">Copy</button>
+```
 sudo usermod -aG docker $USER
 ```
 
-```<button onclick="navigator.clipboard.writeText('sudo apt update')">Copy</button>
+```
 newgrp docker
 ```
 
