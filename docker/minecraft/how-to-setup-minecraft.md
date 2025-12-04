@@ -33,3 +33,11 @@ Start the Minecraft server with Docker Compose:
 ```
 docker compose up -d
 ```
+
+<pre>
+  <code id="mycode">echo "Hallo Welt"</code>
+</pre>
+<button onclick="navigator.clipboard.writeText(document.getElementById('mycode').innerText)">
+  Copy
+</button>
+
