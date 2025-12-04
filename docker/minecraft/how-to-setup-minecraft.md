@@ -18,12 +18,6 @@ On the Debian server, make the script executable and run it:
 
 Install Playit (for tunneling/remote access):
 
-sudo apt install gnupg -y && curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null && echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.github.io/ppa/data ./" | sudo tee /etc/apt/sources.list.d/playit-cloud.list && sudo apt update && sudo apt install playit && playit
-
----
-
-3
-
 <script type="text/plain" id="cmd">
 sudo apt install gnupg -y && curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null && echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.github.io/ppa/data ./" | sudo tee /etc/apt/sources.list.d/playit-cloud.list && sudo apt update && sudo apt install playit && playit
 </script>
@@ -32,16 +26,16 @@ sudo apt install gnupg -y && curl -SsL https://playit-cloud.github.io/ppa/key.gp
   Copy
 </button>
 
----
-
-<button 
-  data-copy='sudo apt install gnupg -y && curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null && echo &quot;deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.github.io/ppa/data ./&quot; | sudo tee /etc/apt/sources.list.d/playit-cloud.list && sudo apt update && sudo apt install playit && playit'
-  onclick="navigator.clipboard.writeText(this.dataset.copy)">
-  Copy
-</button>
-
----
-
 Start the Minecraft server with Docker Compose:
 
 <button onclick="navigator.clipboard.writeText('docker compose up -d')">Copy</button>
+
+---
+
+<script type="text/plain" id="cmd">
+
+</script>
+
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd').textContent)">
+  Copy
+</button>
