@@ -33,7 +33,7 @@ sudo apt update
 Copy
 </button>
 
-
+---
 
 <script type="text/plain" id="cmd-02">
 sudo apt upgrade
