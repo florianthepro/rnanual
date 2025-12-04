@@ -25,9 +25,13 @@ Important: Create two users during installation:
 
 Log in as root and run:
 
-```
-<button onclick="navigator.clipboard.writeText('sudo apt update')">Copy</button>
-```
+<script type="text/plain" id="cmd">
+sudo apt update
+</script>
+
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd').textContent)">
+Copy
+</button>
 
 ```<button onclick="navigator.clipboard.writeText('sudo apt update')">Copy</button>
 sudo apt upgrade
