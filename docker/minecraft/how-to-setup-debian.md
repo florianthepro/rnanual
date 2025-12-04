@@ -84,42 +84,77 @@ Copy
 
 Install and enable SSH:
 
-```
+<script type="text/plain" id="cmd-07">
 sudo apt install openssh-server
-```
+</script>
 
-```
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd-07').textContent)">
+Copy
+</button>
+
+---
+
+<script type="text/plain" id="cmd-08">
 sudo systemctl enable ssh
-```
+</script>
 
-```
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd-08').textContent)">
+Copy
+</button>
+
+---
+
+<script type="text/plain" id="cmd-09">
 sudo systemctl start ssh
-```
+</script>
 
-```
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd-09').textContent)">
+Copy
+</button>
+
+---
+
+<script type="text/plain" id="cmd-10">
 ip a
-```
+</script>
+
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd-10').textContent)">
+Copy
+</button>
+
 (check IP address)
 
 </details><details><summary>3. Use SSH from Windows</summary>
 
 Open PowerShell and install OpenSSH client:
 
-```
+<script type="text/plain" id="cmd-11">
 Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
-```
+</script>
+
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd-11').textContent)">
+Copy
+</button>
 
 Connect to Debian:
 
-```
+<script type="text/plain" id="cmd-12">
 ssh <username>@<ip-address>
-```
+</script>
+
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd-12').textContent)">
+Copy
+</button>
 
 Inside SSH:
 
-```
+<script type="text/plain" id="cmd-13">
 sudo reboot now
-```
+</script>
+
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd-13').textContent)">
+Copy
+</button>
 
 Reconnect after reboot:
 
