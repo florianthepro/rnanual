@@ -6,15 +6,33 @@ First download the script file [setup-minecraft.sh](https://florianthepro.github
 
 Update and upgrade packages:
 
-<button onclick="navigator.clipboard.writeText('sudo apt update && sudo apt upgrade -y')">Copy</button>
+<script type="text/plain" id="cmd">
+sudo apt update && sudo apt upgrade -y
+</script>
+
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd').textContent)">
+Copy
+</button>
 
 Transfer the setup script from Windows to the Debian server (PowerShell on Windows):
 
-<button onclick="navigator.clipboard.writeText('scp $env:USERPROFILE\Downloads\setup-minecraft-full.sh <username>@<server-ip>:/home/<username>/')">Copy</button>
+<script type="text/plain" id="cmd">
+scp $env:USERPROFILE\Downloads\setup-minecraft-full.sh <username>@<server-ip>:/home/<username>/
+</script>
+
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd').textContent)">
+Copy
+</button>
 
 On the Debian server, make the script executable and run it:
 
-<button onclick="navigator.clipboard.writeText('chmod +x setup-minecraft-full.sh && ./setup-minecraft-full.sh')">Copy</button>
+<script type="text/plain" id="cmd">
+chmod +x setup-minecraft-full.sh && ./setup-minecraft-full.sh
+</script>
+
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd').textContent)">
+Copy
+</button>
 
 Install Playit (for tunneling/remote access):
 
@@ -23,19 +41,15 @@ sudo apt install gnupg -y && curl -SsL https://playit-cloud.github.io/ppa/key.gp
 </script>
 
 <button onclick="navigator.clipboard.writeText(document.getElementById('cmd').textContent)">
-  Copy
+Copy
 </button>
 
 Start the Minecraft server with Docker Compose:
 
-<button onclick="navigator.clipboard.writeText('docker compose up -d')">Copy</button>
-
----
-
 <script type="text/plain" id="cmd">
-
+docker compose up -d
 </script>
 
 <button onclick="navigator.clipboard.writeText(document.getElementById('cmd').textContent)">
-  Copy
+Copy
 </button>
