@@ -63,6 +63,10 @@
     },
     "11-costum-xml": {
       "de": "https://raw.githubusercontent.com/florianthepro/win11/refs/heads/main/README.md"
+    },
+    "blanko-installer": {
+      "de": "https://raw.githubusercontent.com/florianthepro/win11/refs/heads/main/blanko-install.bat.md",
+      "en": "https://raw.githubusercontent.com/florianthepro/win11/refs/heads/main/blanko-install.bat.md"
     }
   }
 }
